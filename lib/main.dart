@@ -1,10 +1,16 @@
 import "package:flutter/material.dart";
 
 void main() {
-  runApp(const MaterialApp(
+  runApp(
+    MaterialApp(
       home: Scaffold(
-    body: Center(
-      child: Text("Hello World"),
+        backgroundColor: Colors.indigo,
+        body: Container(
+          child: const Center(
+            child: Text("Hello World"),
+          ),
+        ),
+      ),
     ),
-  )));
+  );
 }
