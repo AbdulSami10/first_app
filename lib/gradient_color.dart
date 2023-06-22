@@ -13,6 +13,8 @@ class GradientColor extends StatelessWidget {
             Color.fromARGB(255, 29, 2, 80),
             Color.fromARGB(255, 49, 2, 80),
           ],
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
         ),
       ),
       child: const Center(child: StyledText()),
