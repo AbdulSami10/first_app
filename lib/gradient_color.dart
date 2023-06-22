@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:first_app/styled_text.dart';
 
 const startAlignment = Alignment.topLeft;
 const endAlignment = Alignment.bottomRight;
@@ -23,7 +22,10 @@ class GradientColor extends StatelessWidget {
         ),
       ),
       child: Center(
-        child: Image.asset("assets/images/dice-1.png"),
+        child: Image.asset(
+          "assets/images/dice-1.png",
+          width: 200,
+        ),
       ),
     );
   }
