@@ -11,16 +11,16 @@ class GradientColor extends StatelessWidget {
     return Container(
       decoration: const BoxDecoration(
         gradient: LinearGradient(
-          colors:   [
+          colors: [
             Color.fromARGB(255, 26, 2, 80),
             Color.fromARGB(255, 29, 2, 80),
             Color.fromARGB(255, 49, 2, 80),
           ],
-          begin: startAlignment;
-          end: endAlignment;
+          begin: startAlignment,
+          end: endAlignment,
         ),
       ),
-      child: const Center(child: StyledText()),
+      child: const Center(child: StyledText("Hello World")),
     );
   }
 }
