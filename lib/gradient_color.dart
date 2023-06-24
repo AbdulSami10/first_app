@@ -27,8 +27,11 @@ class GradientColor extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         children: [
           Image.asset(
-            "assets/images/dice-1.png",
+            "assets/images/dice-2.png",
             width: 200,
+          ),
+          const SizedBox(
+            height: 20,
           ),
           TextButton(
             onPressed: rollDice,
