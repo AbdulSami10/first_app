@@ -30,7 +30,14 @@ class GradientColor extends StatelessWidget {
             "assets/images/dice-1.png",
             width: 200,
           ),
-          const TextButton(onPressed: rollDice, child: Text("Roll the dice"))
+          TextButton(
+            onPressed: rollDice,
+            style: TextButton.styleFrom(
+              foregroundColor: Colors.white,
+              textStyle: const TextStyle(fontSize: 28),
+            ),
+            child: const Text("Roll the dice"),
+          )
         ],
       )),
     );
